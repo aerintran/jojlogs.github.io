@@ -1,0 +1,82 @@
+body {
+    background-color: orange;
+}
+
+
+p {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    padding:10px;
+
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 200px;
+}
+li {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-right: 150px;
+    margin-left: 200px;
+
+}
+
+ol {
+    color: greenyellow;
+    padding-left: 20px 
+}
+
+h1 {
+    color: #F72798;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 900px;
+
+}
+
+h3 {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-right: 150px;
+    margin-left: 200px;
+}
+
+h4 {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-right: 150px;
+    margin-left: 200px;
+}
+
+a {
+    font-family: "Roboto Mono", monospace; /* Change the font family */
+    padding: 10px; /* Change the padding */
+    color: green; /* Change the link color */
+
+  }
+
+img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal; /* or specify the desired weight */
+    font-style: normal;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.padded-text {
+    padding: 0px; /* Add padding around the text */
+    text-align: left; /* Center the text horizontally */
+    margin: 100; /* Remove default margin */
+}
+

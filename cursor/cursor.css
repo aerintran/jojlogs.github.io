@@ -1,0 +1,28 @@
+body {
+    cursor: url('troll.png'), auto;
+}
+
+
+.glitter-particle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: hotpink;
+    border-radius: 50%;
+    pointer-events: none; /* So that it doesn't interfere with cursor interaction */
+    z-index: 1000; /* Ensure it's on top of other content */
+    opacity: 0; /* Initially hide the particle */
+    animation: glitter 1s infinite alternate; /* Add animation */
+}
+
+@keyframes glitter {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
